@@ -6,9 +6,9 @@
         <AppVersion>1.0.0</AppVersion>
         <Description>This is the Mythos Medusa Network Test Plan.  PTS/Medusa is based on the Launchpad Mythos Medusa project.  Medusa installs a web server on each test instance, runs NMap to discover open web server ports on a CIDR you dictate, and runs Siege tests from host to host based on the discovered hosts list.  This test is intended to produce large network and server loads at scale and record performance network performance data.</Description>
         <ResultScale>Connecitons Per Second</ResultScale>
-        <Proportion>WTF?</Proportion>
+        <Proportion>HIB</Proportion>
         <SubTitle>Medusa Network Performance</SubTitle>
-        <TimesToRun>1</TimesToRun>
+        <TimesToRun>5</TimesToRun>
     </TestInformation>
     <TestProfile>
         <Version>1.0.0</Version>
@@ -18,8 +18,46 @@
         <License>Free</License>
         <Status>New</Status>
         <ExternalDependencies>build-utilities</ExternalDependencies>
-        <EnvironmentSize>0.1</EnvironmentSize>
+        <EnvironmentSize>128</EnvironmentSize>
         <ProjectURL>https://github.com/spyderdyne/pts-mythos</ProjectURL>
         <Maintainer>James Scollard (Spyderdyne)</Maintainer>
     </TestProfile>
+    <TestSettings>
+        <Default>
+            <Arguments>-v0</Arguments>
+        </Default>
+        <Option>
+            <DisplayName>Test Network CIDR</DisplayName>
+            <Identifier>network-cidr</Identifier>
+            <DefaultEntry>192.168.0.0/24</DefaultEntry>
+            <Menu>
+                <Entry>
+                    <Name>CIDR</Name>
+                    <Value>UNKNOWN!!!</Value>
+                </Entry>
+            </Menu>
+        </Option>
+        <Option>
+            <DisplayName>initial Connections</DisplayName>
+            <Identifier>initial-connections</Identifier>
+            <DefaultEntry>100</DefaultEntry>
+            <Menu>
+                <Entry>
+                    <Name>Initial</Name>
+                    <Value>UNKNOWN!!!</Value>
+                </Entry>
+            </Menu>
+        </Option>
+        <Option>
+            <DisplayName>Siege Number of Times to Ramp</DisplayName>
+            <Identifier>ramp-count</Identifier>
+            <DefaultEntry>10</DefaultEntry>
+            <Menu>
+                <Entry>
+                    <Name>RAMP</Name>
+                    <Value>UNKNOWN!!!</Value>
+                </Entry>
+            </Menu>
+        </Option>
+    </TestSettings>
 </PhoronixTestSuite>
