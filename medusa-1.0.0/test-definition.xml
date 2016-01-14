@@ -20,6 +20,6 @@
         <ExternalDependencies>build-utilities</ExternalDependencies>
         <EnvironmentSize>0.1</EnvironmentSize>
         <ProjectURL>https://github.com/spyderdyne/pts-mythos</ProjectURL>
-        <Maintainer>James E. Scollard III (Spyderdyne)</Maintainer>
+        <Maintainer>James Scollard (Spyderdyne)</Maintainer>
     </TestProfile>
 </PhoronixTestSuite>
