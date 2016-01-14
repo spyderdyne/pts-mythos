@@ -2,24 +2,24 @@
 <!--Phoronix Test Suite v5.0.0m0 (Plavsk)-->
 <PhoronixTestSuite>
     <TestInformation>
-        <Title>TSCP</Title>
-        <AppVersion>1.81</AppVersion>
-        <Description>This is a performance test of TSCP, Tom Kerrigan's Simple Chess Program, which has a built-in performance benchmark.</Description>
-        <ResultScale>Nodes Per Second</ResultScale>
-        <Proportion>HIB</Proportion>
-        <SubTitle>AI Chess Performance</SubTitle>
-        <TimesToRun>5</TimesToRun>
+        <Title>Medusa</Title>
+        <AppVersion>1.0.0</AppVersion>
+        <Description>This is the Mythos Medusa Network Test Plan.  PTS/Medusa is based on the Launchpad Mythos Medusa project.  Medusa installs a web server on each test instance, runs NMap to discover open web server ports on a CIDR you dictate, and runs Siege tests from host to host based on the discovered hosts list.  This test is intended to produce large network and server loads at scale and record performance network performance data.</Description>
+        <ResultScale>Connecitons Per Second</ResultScale>
+        <Proportion>WTF?</Proportion>
+        <SubTitle>Medusa Network Performance</SubTitle>
+        <TimesToRun>1</TimesToRun>
     </TestInformation>
     <TestProfile>
-        <Version>1.2.0</Version>
+        <Version>1.0.0</Version>
         <SupportedPlatforms>Linux, Solaris, MacOSX</SupportedPlatforms>
         <SoftwareType>Utility</SoftwareType>
-        <TestType>Processor</TestType>
+        <TestType>Network</TestType>
         <License>Free</License>
-        <Status>Verified</Status>
+        <Status>New</Status>
         <ExternalDependencies>build-utilities</ExternalDependencies>
-        <EnvironmentSize>0.3</EnvironmentSize>
-        <ProjectURL>http://github.com/spyderdyne/</ProjectURL>
-        <Maintainer>James Scollard</Maintainer>
+        <EnvironmentSize>0.1</EnvironmentSize>
+        <ProjectURL>https://github.com/spyderdyne/pts-mythos</ProjectURL>
+        <Maintainer>James E. Scollard III (Spyderdyne)</Maintainer>
     </TestProfile>
 </PhoronixTestSuite>
