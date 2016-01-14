@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.0.0m0 (Plavsk)-->
+<PhoronixTestSuite>
+    <TestInformation>
+        <Title>Odin</Title>
+        <AppVersion>1.0.0</AppVersion>
+        <Description>THis is the Odin Rally benchmark test plan.  The Odin project is part of the Launchpad Mythos project.  Odin installs Openstack Rally, runs a series of Benchmarks, and will probably never work... :)</Description>
+        <ResultScale>Connecitons Per Second</ResultScale>
+        <Proportion>WTF?</Proportion>
+        <SubTitle>Medusa Network Performance</SubTitle>
+        <TimesToRun>1</TimesToRun>
+    </TestInformation>
+    <TestProfile>
+        <Version>1.0.0</Version>
+        <SupportedPlatforms>Linux, Solaris, MacOSX</SupportedPlatforms>
+        <SoftwareType>Utility</SoftwareType>
+        <TestType>Network</TestType>
+        <License>Free</License>
+        <Status>New</Status>
+        <ExternalDependencies>build-utilities</ExternalDependencies>
+        <EnvironmentSize>0.1</EnvironmentSize>
+        <ProjectURL>https://github.com/spyderdyne/pts-mythos</ProjectURL>
+        <Maintainer>James E. Scollard III (Spyderdyne)</Maintainer>
+    </TestProfile>
+</PhoronixTestSuite>
