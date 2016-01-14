@@ -17,7 +17,7 @@
         <TestType>Network</TestType>
         <License>Free</License>
         <Status>New</Status>
-        <ExternalDependencies>build-utilities</ExternalDependencies>
+        <ExternalDependencies>nmap,siege</ExternalDependencies>
         <EnvironmentSize>128</EnvironmentSize>
         <ProjectURL>https://github.com/spyderdyne/pts-mythos</ProjectURL>
         <Maintainer>James Scollard (Spyderdyne)</Maintainer>
