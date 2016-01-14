@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.0.0m0 (Plavsk)-->
+<PhoronixTestSuite>
+    <Downloads>
+        <Package>
+            <URL>http://medusa100_pts.tar.bz2</URL>
+            <MD5></MD5>
+            <SHA256></SHA256>
+            <FileSize></FileSize>
+        </Package>
+    </Downloads>
+</PhoronixTestSuite>
+        root@vagrant-ubuntu-vivid-64:/var/lib/phoronix-test-suite/test-profiles/pts/tscp-1.2.0# cat results-definition.xml
+        <?xml version="1.0"?>
+        <!--Phoronix Test Suite v5.0.0m0 (Plavsk)-->
+<PhoronixTestSuite>
+<ResultsParser>
+    <OutputTemplate>Nodes per second: #_RESULT_# (Score: 1.034)</OutputTemplate>
+</ResultsParser>
+</PhoronixTestSuite>
